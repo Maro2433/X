@@ -154,6 +154,7 @@ main {
 /*----Inicio Contenido Principal----*/
 
 .content-main {
+    grid-column: 2;
     display: flex;
     color: white;
     border-right: 1px solid #2F3336;
@@ -168,8 +169,8 @@ main {
 }
 
 .header-down {
+    grid-column: 2;
     display: flex;
-    position: relative;
 }
 
 .para-ti a {
@@ -259,7 +260,6 @@ input:focus {
 }
 
 .btn-postear {
-    display: flex;
     position: relative;
     width: 100px;
     height: 50px;
@@ -277,3 +277,4 @@ input:focus {
 .btn-postear:hover {
     background-color: #0b6bac;
 }
+
