@@ -1,0 +1,141 @@
+body {
+    background-color: rgb(36, 45, 52);
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+.login_caja {
+    background-color: black;
+    padding: 0px 0px;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 10px;
+}
+.login_superior {
+    height: 100%;
+    display: flex;
+    padding: 5px;
+}
+.boton_circular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: background-color 0.3s;
+}
+.boton_circular:hover {
+    background-color: rgb(30, 30, 30);
+    cursor: pointer;
+}
+.imagen {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login_texto {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.login_caja_de_texto_01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.caja_de_texto_01 {
+    width: 65%;
+    height: 50px;
+    text-align: center;
+    background: black;
+    border: 2px solid rgb(50, 50, 50);
+    color: white;
+    font-size: 15px;
+}
+.login_caja_de_texto_02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 0px;
+}
+.caja_de_texto_02 {
+    width: 65%;
+    height: 50px;
+    text-align: center;
+    background: black;
+    border: 2px solid rgb(50, 50, 50);
+    color: white;
+    font-size: 15px;
+}
+.login_contraseña {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    padding: 0px;
+    margin-bottom: 60px;
+}
+.login_contraseña a {
+    width: 65%;
+    text-align: left;
+    color: rgb(29, 155, 240);
+    text-decoration: none;
+    margin-bottom: 120px;
+}
+.login_contraseña a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.login_botones {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 5px 20px;
+    align-items: center;
+}
+.boton_iniciar_sesion {
+    width: 75%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-bottom: 0px;
+    transition: background-color 0.3s;
+}
+.boton_iniciar_sesion:hover {
+    background-color: rgb(210, 210, 210);
+    cursor: pointer;
+}
+.login_registro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: rgb(80, 80, 80);
+    padding: 10px;
+}
+.registro {
+    color: rgb(29, 155, 240);
+    text-decoration: none;
+}
+.registro:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

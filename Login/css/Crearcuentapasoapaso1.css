@@ -1,0 +1,229 @@
+body {
+    background-color: rgb(36, 45, 52);
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+.login_caja {
+    background-color: black;
+    padding: 0px 0px;
+    width: 660px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 10px;
+}
+.login_superior {
+    height: 100%;
+    display: flex;
+    padding: 5px;
+}
+.boton_circular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: background-color 0.3s;
+}
+.boton_circular:hover {
+    background-color: rgb(30, 30, 30);
+    cursor: pointer;
+}
+.paso1 {
+    font-size: 10px;
+    width: 195%;
+    display: flex;
+    color: aliceblue;
+}
+.crearcuentatexto {
+    display: flex;
+    color: white;
+    padding-left: 85px;
+}
+
+.Nombre {
+    width: 77%;
+    height: 62px;
+    text-align: left;
+    padding-left: 10px;
+    background: black;
+    border: 1px solid rgb(50, 50, 50);
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.telefonoEmail {
+    width: 77%;
+    height: 62px;
+    text-align: left;
+    padding-left: 10px;
+    background: black;
+    border: 1px solid rgb(50, 50, 50);
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.emaildivision {
+    display: flex;
+    justify-content: right;
+    color: rgb(29, 155, 240);
+    font-size: 16px;
+    padding-left: 300px;
+    margin-bottom: 10px;
+}
+
+.emaildivision:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.fechanacimientotexto {
+    display: flex;
+    align-items: left;
+    color: white;
+    font-size: 8px;
+    margin-left: 80px
+}
+
+.fechanacimientotexto1 {
+    color: rgb(113, 118, 123);
+    display: flex;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 16px;
+    font-weight: 400;
+    margin-left: 80px;
+    margin-right: 97px;
+    padding-bottom: 20px;
+}
+
+.login_botones {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 5px 20px;
+    align-items: center;
+}
+.boton_siguiente {
+    width: 80%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(162, 162, 162);
+    color: black;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+
+.boton_siguiente b {
+    display: inline-block;
+}
+
+.boton_siguiente:hover {
+    background-color: white;
+}
+
+
+.login_botones_crearcuenta {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 20px 5px 20px;
+    align-items: center;
+}
+
+.login_botones_inicio_sesion {
+    display: flex;
+    padding: 8px 20px 5px 20px;
+    align-items: center;
+    border-radius: 5px;
+    padding-bottom: 80px;
+}
+
+.mes {
+    width: 100px;
+    height: 40px;
+    text-align: left;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid rgb(54, 54, 54);
+    color: rgb(113, 118, 123);
+    font-size: 15px;
+    flex: 4.7;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-right: 10px; 
+    margin-left: 60px;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+
+.Dia{
+    width: 70px;
+    height: 40px;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid rgb(54, 54, 54);
+    background: transparent;
+    color: rgb(113, 118, 123);
+    font-size: 15px;
+    flex: 2;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-right: 10px; 
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.Año {
+    width: 70px;
+    height: 40px;
+    text-align: left;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid rgb(50, 50, 50);
+    color: rgb(113, 118, 123);
+    font-size: 15px;
+    flex: 2.5;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-right: 60px; /* Añadimos un margen derecho de 20px para separar los divs */
+    border-radius: 5px;
+}
+
+.añooo, .mees, .diaaa{
+    background: black;
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    appearance: none;
+    padding-top: 2px;
+    width: 80px;
+    font-size: 20px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
