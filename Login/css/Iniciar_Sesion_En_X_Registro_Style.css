@@ -1,0 +1,175 @@
+body {
+    background-color: rgb(36, 45, 52);
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+.login_caja {
+    background-color: black;
+    padding: 0px 0px;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 10px;
+}
+.login_superior {
+    height: 100%;
+    display: flex;
+    padding: 5px;
+}
+.boton_circular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: background-color 0.3s;
+}
+.boton_circular:hover {
+    background-color: rgb(30, 30, 30);
+    cursor: pointer;
+}
+.imagen {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login_texto_01 {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding: 0px 0px 0px 45px;
+}
+.login_botones_inicio_sesion {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 5px 20px;
+    align-items: center;
+}
+.boton_google {
+    width: 65%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+.boton_google:hover {
+    background-color: rgb(210, 210, 210);
+    cursor: pointer;
+}
+.boton_apple {
+    width: 65%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 15px;
+    transition: background-color 0.3s;
+}
+.boton_apple:hover {
+    background-color: rgb(210, 210, 210);
+    cursor: pointer;
+}
+.login_division {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login_division hr {
+    border: 0px;
+    height: 1px;
+    width: 40%;
+    background: rgb(70, 70, 70);
+    margin: 0px 10px;
+}
+.login_division h1 {
+    color: rgb(120, 120, 120);
+    font-size: 15px;
+}
+.login_botones {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 0px 20px;
+    align-items: center;
+}
+.boton_siguiente {
+    width: 65%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+.boton_siguiente:hover {
+    background-color: rgb(210, 210, 210);
+    cursor: pointer;
+}
+.login_texto_02 {
+    padding: 0px 0px 0px 45px;
+    width: 80%;
+    display: flex;
+    color: rgb(80, 80, 80);
+    justify-content: center;
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.texto_02 {
+    width: 70%;
+    margin: 0px;
+}
+.texto_link_02 {
+    color: rgb(29, 155, 240);
+    text-decoration: none;
+}
+.texto_link_02:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.login_sesion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: rgb(80, 80, 80);
+    width: 60%;
+    padding: 0px 20px 20px 45px;
+    margin-bottom: 120px;
+}
+.sesion {
+    color: rgb(29, 155, 240);
+    text-decoration: none;
+}
+.sesion:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
