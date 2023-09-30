@@ -126,7 +126,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(162, 162, 162);
+    background-color: white;
     color: black;
     cursor: pointer;
     border-radius: 30px;
@@ -140,7 +140,7 @@ a{
 }
 
 .boton_siguiente:hover {
-    background-color: white;
+    background-color: rgb(162, 162, 162);
 }
 
 
@@ -211,7 +211,7 @@ a{
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-    margin-right: 60px; /* Añadimos un margen derecho de 20px para separar los divs */
+    margin-right: 60px;
     border-radius: 5px;
 }
 

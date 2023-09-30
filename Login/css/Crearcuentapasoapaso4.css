@@ -111,7 +111,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(162, 162, 162);
+    background-color: white;
     color: black;
     cursor: pointer;
     border-radius: 30px;
@@ -125,7 +125,7 @@ a{
 }
 
 .boton_siguiente:hover {
-    background-color: white;
+    background-color: rgb(162, 162, 162);
 }
 
 

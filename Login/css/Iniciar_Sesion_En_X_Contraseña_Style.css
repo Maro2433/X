@@ -119,6 +119,7 @@ body {
     border-radius: 30px;
     font-size: 15px;
     margin-bottom: 0px;
+    text-decoration: none;
     transition: background-color 0.3s;
 }
 .boton_iniciar_sesion:hover {
