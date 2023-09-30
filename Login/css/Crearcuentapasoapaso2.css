@@ -179,6 +179,7 @@ a:hover{
     border-radius: 30px;
     font-size: 20px;
     margin-bottom: 20px;
+    text-decoration: none;
     transition: background-color 0.3s;
 }
 
@@ -188,4 +189,5 @@ a:hover{
 
 .boton_siguiente:hover {
     background-color: rgb(162, 162, 162);
+    text-decoration: none;
 }
