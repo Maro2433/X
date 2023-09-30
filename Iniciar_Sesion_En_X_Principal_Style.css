@@ -1,0 +1,237 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+.seccion_01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 149.5px 20px;
+    height: 50%;
+    width: 49%;
+}
+
+.seccion_02 {
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 50%;
+    width: 51%;
+}
+.login_texto_01 {
+    margin-top: 90px;
+    display: flex;
+    color: white;
+    justify-content: left;
+    text-align: left;
+    font-size: 35px;
+}
+.texto_01 {
+    width: 70%;
+    margin: 0px;
+}
+.login_texto_02 {
+    display: flex;
+    color: white;
+    justify-content: left;
+    text-align: left;
+    font-size: 18px;
+    padding: 22px 0px 0px 0px;
+}
+.login_botones_inicio_sesion {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 5px 0px;
+    justify-content: left;
+}
+.boton_google {
+    width: 40%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+.boton_google:hover {
+    background-color: rgb(210, 210, 210);
+    cursor: pointer;
+}
+.boton_apple {
+    width: 40%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 15px;
+    transition: background-color 0.3s;
+}
+.boton_apple:hover {
+    background-color: rgb(210, 210, 210);
+    cursor: pointer;
+}
+.login_division {
+    display: flex;
+    width: 40%;
+    justify-content: left;
+    align-items: center;
+}
+.login_division hr {
+    border: 0px;
+    height: 1px;
+    width: 250%;
+    background: rgb(70, 70, 70);
+    margin: 0px;
+}
+.login_division h1 {
+    color: rgb(120, 120, 120);
+    font-size: 15px;
+    margin: 0px 10px;
+}
+.login_botones {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0px;
+    justify-content: left;
+}
+.boton_cuenta {
+    width: 40%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(29, 155, 240);
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-bottom: 0px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+.boton_cuenta:hover {
+    background-color: rgb(29, 145, 223);
+    cursor: pointer;
+}
+.login_texto_03 {
+    padding: 5px 0px;
+    display: flex;
+    color: rgb(80, 80, 80);
+    justify-content: left;
+    text-align: left;
+    font-size: 5.2px;
+    margin-bottom: 50px;
+}
+.texto_03 {
+    width: 40%;
+    margin: 0px;
+}
+.texto_link_03 {
+    color: rgb(29, 155, 240);
+    text-decoration: none;
+}
+.texto_link_03:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.login_texto_04 {
+    display: flex;
+    color: white;
+    justify-content: left;
+    text-align: left;
+    font-size: 8px;
+    padding: 0px;
+}
+.login_boton {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0px;
+    justify-content: left;
+}
+.boton_sesion {
+    width: 40%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border: 2px solid rgb(80, 80, 80);
+    color: rgb(29, 155, 240);
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-bottom: 40px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+.boton_sesion:hover {
+    background-color: rgb(50, 50, 50);
+    cursor: pointer;
+}
+.seccion_03 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    padding: 10px 0px;
+}
+.lista_01 {
+    white-space: nowrap;
+    list-style: none;
+    padding: 0px 10px;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+    color: rgb(80, 80, 80);
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.lista_01 li {
+    margin: 0;
+    padding: 0;
+}
+.lista_01 li a {
+    color: rgb(80, 80, 80);
+    text-decoration: none;
+}
+.lista_01 li a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.lista_02 {
+    white-space: nowrap;
+    list-style: none;
+    padding: 0px 10px;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+    color: rgb(80, 80, 80);
+    font-size: 13px;
+}
+.lista_02 li {
+    margin: 0;
+    padding: 0;
+}
+.lista_02 li a {
+    color: rgb(80, 80, 80);
+    text-decoration: none;
+}
+.lista_02 li a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
