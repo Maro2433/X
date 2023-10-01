@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(36, 45, 52);
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+.login_caja {
+    background-color: black;
+    padding: 0px 0px;
+    width: 660px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 10px;
+}
+.login_superior {
+    height: 100%;
+    display: flex;
+    padding: 5px;
+}
+
+h1{
+    display: block;
+    margin-bottom: 14px;
+}
+.paso5 {
+    font-size: 10px;
+    width: 195%;
+    display: flex;
+    color: aliceblue;
+    padding-left: 15px;
+}
+.codigotexto {
+    display: flex;
+    color: white;
+    padding-left: 78px;
+    padding-bottom: 0px;
+}
+
+.codigo {
+    width: 77%;
+    height: 62px;
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+    background: transparent;
+    border: 1px solid rgb(50, 50, 50);
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 350px;
+}
+
+.imagen{
+    position: absolute;
+    right: 93px;
+    width: 28px;
+    top: 200px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.Texto {
+    color: rgb(113, 118, 123);
+    display: flex;
+    text-align: justify;
+    font-size: 17px;
+    line-height: 16px;
+    font-weight: 400;
+    margin-left: 80px;
+    margin-right: 97px;
+    padding-bottom: 20px;
+}
+
+.login_botones {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 5px 20px;
+    align-items: center;
+}
+.boton_siguiente {
+    width: 80%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+
+.boton_siguiente b {
+    display: inline-block;
+}
+
+.boton_siguiente:hover {
+    background-color: rgb(162, 162, 162);
+}
+
+
+.login_botones_crearcuenta {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 20px 5px 20px;
+    align-items: center;
+}
